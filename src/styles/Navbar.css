@@ -37,3 +37,13 @@
 .nav_link:hover::after{
     width: 100%;
 }
+
+@media (max-width:1300px) {
+    .nav_links {
+        padding-left: 5rem;
+    }
+    
+    .nav_link {
+        padding: 0 2rem ;        
+    }  
+}
