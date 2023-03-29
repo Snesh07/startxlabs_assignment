@@ -1,7 +1,39 @@
-.navbar_container{
-    position: relative;
+.navbar_container {
+    margin-top: 2rem;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    background-color: #F2F9FF;
+    width: 100%;
 }
-.nav_links Link{
+
+.navbar_logo {
+    padding: 5px;
+    margin-left: 3rem;
+}
+
+.nav_links {
+    padding-left: 8rem;
+}
+
+.nav_link {
+    padding: 0 3rem ;
     text-decoration: none;
     color: #000;
+    font-size: 1.2rem;
+    display: inline-block;
+    position: relative;
+}
+
+.nav_link::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #017EFF;
+    display: block;
+    margin: 0%;
+    transition: 0.5s;
+}
+.nav_link:hover::after{
+    width: 100%;
 }

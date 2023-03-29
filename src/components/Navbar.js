@@ -6,15 +6,15 @@ function Navbar() {
     return (
         <>
             <div className='navbar_container'>
-                <img src='./images/logo.png' alt="logo" onClick={"/"}></img>
+                <img src='./images/logo.png' alt="logo" onClick={"/"} className='navbar_logo'></img>
                 <div className="nav_links">
-                    <Link to="/">Home</Link>
-                    <Link to="/">Men</Link>
-                    <Link to="/">Women</Link>
-                    <Link to="/">Kids</Link>
-                    <Link to="/">Footwear</Link>
-                    <Link to="/">Jewellery</Link>
-                    <Link to="/">Traditional</Link>
+                    <Link to="/" className="nav_link">Home</Link>
+                    <Link to="/" className="nav_link">Men</Link>
+                    <Link to="/" className="nav_link">Women</Link>
+                    <Link to="/" className="nav_link">Kids</Link>
+                    <Link to="/" className="nav_link">Footwear</Link>
+                    <Link to="/" className="nav_link">Jewellery</Link>
+                    <Link to="/" className="nav_link">Traditional</Link>
                 </div>
             </div>
         </>
