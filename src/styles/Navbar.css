@@ -1,0 +1,7 @@
+.navbar_container{
+    position: relative;
+}
+.nav_links Link{
+    text-decoration: none;
+    color: #000;
+}
