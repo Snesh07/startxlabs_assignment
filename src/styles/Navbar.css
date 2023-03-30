@@ -5,6 +5,7 @@
     display: flex;
     background-color: #F2F9FF;
     width: 100%;
+    overflow: hidden;
 }
 
 .navbar_logo {

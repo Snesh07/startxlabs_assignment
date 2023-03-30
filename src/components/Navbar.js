@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <>
             <div className='navbar_container'>
-                <img src='./images/logo.png' alt="logo" onClick={"/"} className='navbar_logo'></img>
+                <img src='./images/logo.png' alt="logo" className='navbar_logo'></img>
                 <div className="nav_links">
                     <Link to="/" className="nav_link">Home</Link>
                     <Link to="/" className="nav_link">Men</Link>
