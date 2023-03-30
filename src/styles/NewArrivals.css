@@ -144,7 +144,8 @@
     background-color: #017EFF;
     border-radius: 5px;
     bottom: 2rem;
-    left: 19.3%;
+    left: 15%;
+    right: 20%;
 }
 
 .new_arrival_right_itemName p {
@@ -152,5 +153,5 @@
     font-weight: 300;
     font-size: 0.9rem;
     text-align: center;
-    padding: 0rem 3rem;
+    padding: 0rem 2rem;
 }

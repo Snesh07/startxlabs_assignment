@@ -35,7 +35,7 @@ function New_arrivals() {
                                 <h3>20% <br /> OFF</h3>
                             </div>
                             <div className='new_arrival_right_itemName'>
-                                <p>Branded Hand Bags</p>
+                                <p>Stylish Watches</p>
                             </div>
                         </div>
 
@@ -45,7 +45,7 @@ function New_arrivals() {
                                 <h3>20% <br /> OFF</h3>
                             </div>
                             <div className='new_arrival_right_itemName'>
-                                <p>Branded Hand Bags</p>
+                                <p>Special Edition Shoes</p>
                             </div>
                         </div>
 
@@ -55,7 +55,7 @@ function New_arrivals() {
                                 <h3>20% <br /> OFF</h3>
                             </div>
                             <div className='new_arrival_right_itemName'>
-                                <p>Branded Hand Bags</p>
+                                <p>Regular Fit Plain Casual Shirt</p>
                             </div>
                         </div>
 
@@ -65,7 +65,7 @@ function New_arrivals() {
                                 <h3>20% <br /> OFF</h3>
                             </div>
                             <div className='new_arrival_right_itemName'>
-                                <p>Branded Hand Bags</p>
+                                <p>Special For Womens</p>
                             </div>
                         </div>
                     </div>
