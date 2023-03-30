@@ -7,7 +7,20 @@ import { BsChevronLeft, BsChevronRight, } from "react-icons/bs"
 //     return string?.length > n ? string.substr(0, n - 1) + '...' : string;
 // }
 
-function DealofDay() {
+
+const DealofDay = (props) => {
+
+    const slideLeft = () => {
+        var slider = document.getElementById("slider");
+        slider.scrollLeft = slider.scrollLeft + 500;
+    }
+
+    const slideRight = () => {
+        var slider = document.getElementById("slider");
+        slider.scrollLeft = slider.scrollLeft - 500;
+    }
+
+
     return (
         <>
             <div className='dealsOfDay_container'>
@@ -19,12 +32,15 @@ function DealofDay() {
                 </div>
 
                 <div className='dealsOfDay_btn'>
-                    <div><BsChevronLeft className='slider_btn left' /></div>
-                    <div><BsChevronRight className='slider_btn right' /></div>
+                    <div><BsChevronLeft className='slider_btn left' onClick={slideLeft} /></div>
+                    <div><BsChevronRight className='slider_btn right' onClick={slideRight} /></div>
                     <button className='viewAll_btn'>View all</button>
                 </div>
 
-                <div className='dealsOfDay_image_slider'>
+
+                {/* ------Slider------- */}
+
+                <div id='slider' className='dealsOfDay_image_slider'>
 
                     <div className='dealsOfDay_image_area'>
                         <img className='dealsOfDay_image_slider_img' src='./images/Rectangle_1751.png' alt="banner" />
@@ -35,7 +51,7 @@ function DealofDay() {
                     </div>
 
                     <div className='dealsOfDay_image_area'>
-                        <img className='dealsOfDay_image_slider_img' src='./images/Rectangle_1752.png' alt="banner" />                        
+                        <img className='dealsOfDay_image_slider_img' src='./images/Rectangle_1752.png' alt="banner" />
                         <h3>Levis</h3>
                         <p>Men Black Solid Hooded..</p>
                         <h4><b>C$542 </b> $̶8̶4̶9̶ (35% OFF)</h4>
@@ -61,7 +77,6 @@ function DealofDay() {
                         <p>Dark Brown & gold Designer..</p>
                         <h4><b>C$742 </b> $̶1̶6̶4̶9̶ (45% OFF)</h4>
                     </div>
-
                 </div>
             </div>
         </>

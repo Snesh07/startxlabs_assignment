@@ -3,7 +3,7 @@
     margin: 35rem 0;
     width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 .dealsOfDay_heading {
     align-items: center;
@@ -83,8 +83,18 @@
 .dealsOfDay_image_slider{
     margin: 2rem;
     display: flex;
-    /* grid-gap: 0.5rem;
-    grid: auto / auto auto auto auto auto; */
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: scroll !important;
+    position: relative;
+    align-items: center;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.dealsOfDay_image_slider::-webkit-scrollbar {
+    display: none;
 }
 
 .dealsOfDay_image_area{

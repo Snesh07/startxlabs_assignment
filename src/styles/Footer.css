@@ -48,6 +48,8 @@
 
 .footer_contactUs {
     text-align: left;
+    margin: 0 7rem;
+    align-items: center;
 }
 
 .footer_contactUs h3{
@@ -62,6 +64,10 @@
     text-decoration: none;
     color: #fff;
     font-weight: 400;
+}
+
+.footer_socialmedia_icons{
+    margin: 2rem 0;
 }
 
 .footer_icon_bg {
