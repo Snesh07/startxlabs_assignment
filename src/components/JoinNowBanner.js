@@ -10,7 +10,7 @@ function JoinNowBanner() {
                         <p>Become a Reseller</p>
                         <h1>Start your Online Business
                             <br />with Zero Investment</h1>
-                        <button className='JoinNowBanner_btn'>Shop Now</button>
+                        <button className='JoinNowBanner_btn'>Join Now</button>
                     </div>
                     <div className='JoinNowBanner_image'>
                         <img src='./images/image_165.png' alt="JoinNowBanner" ></img>

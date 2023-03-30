@@ -1,0 +1,121 @@
+.dealsOfDay_container{
+    position: absolute;
+    margin: 35rem 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.dealsOfDay_heading {
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.dealsOfDay_heading_line {
+    position: relative;
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+.dealsOfDay_heading_line:before {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 10rem;
+    position: absolute;
+    top: 50%;
+    left: 23rem;
+    background: #EAE9E9;
+}
+
+.dealsOfDay_heading_line::after {
+    content: " ";
+    height: 2px;
+    width: 10rem;
+    background: #EAE9E9;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 23rem;
+}
+
+.dealsOfDay_heading p {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+/* ------Slider button------- */
+
+.dealsOfDay_btn{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 0 2rem;
+    cursor: pointer;
+    color: #017EFF;
+    align-items: center;
+    margin-left: 85%;
+}
+
+.slider_btn{
+    font-weight: 600;
+    font: 2rem;
+}
+
+.viewAll_btn{
+    padding: 0.5rem 1.1rem;
+    background: #017EFF;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+
+/* ------Slider------- */
+
+.dealsOfDay_image_slider{
+    margin: 2rem;
+    display: flex;
+    /* grid-gap: 0.5rem;
+    grid: auto / auto auto auto auto auto; */
+}
+
+.dealsOfDay_image_area{
+    height: 25rem;
+    width: 15rem;
+    overflow: hidden !important;
+    margin: 0 1.5rem;
+}
+
+.dealsOfDay_image_slider_img{
+    height: 20rem;
+    width: 15rem;
+    border-radius: 5px;
+    line-height: 1rem;
+}
+
+.dealsOfDay_image_area h3{
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.dealsOfDay_image_area p{
+    color: #000;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    margin: 0;
+}
+
+.dealsOfDay_image_area h4{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+    font-weight: 300;
+}

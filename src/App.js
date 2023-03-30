@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import NewArrivals from './components/NewArrivals';
 import JoinNowBanner from './components/JoinNowBanner';
+import DealofDay from './components/DealofDay';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/" element={<JoinNowBanner />}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/" element={<DealofDay />}></Route>
         </Routes>
         </Router>
     </>
