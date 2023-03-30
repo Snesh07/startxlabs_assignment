@@ -1,0 +1,56 @@
+.JoinNowBanner_container {
+    position: absolute;
+    margin: 2rem 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.JoinNowBanner_bg {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    background: #017EFF;
+    border-radius: 5px;
+}
+
+.JoinNowBanner_text_btn {
+    padding: 2rem 5rem;
+}
+
+.JoinNowBanner_text_btn p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #D9D9D9;
+}
+
+.JoinNowBanner_text_btn h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+    color: #fff;
+}
+
+.JoinNowBanner_btn{
+    margin-top: 2.2rem;
+    border: #fff solid 1.5px;
+    border-radius: 10px;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #fff;
+    background-color: transparent; 
+    cursor: pointer;   
+}
+
+.JoinNowBanner_btn:hover{
+    background: #fff;
+    transition: 0.5s;
+    color: #017EFF;
+}
+
+.JoinNowBanner_image img {
+    padding-right: 10rem;
+    width: 100%;
+}

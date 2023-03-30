@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import NewArrivals from './components/NewArrivals';
+import JoinNowBanner from './components/JoinNowBanner';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/" element={<NewArrivals />}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/" element={<JoinNowBanner />}></Route>
         </Routes>
         </Router>
     </>
