@@ -7,7 +7,7 @@ function Banner() {
             <div className='banner_container'>
                 <div className='banner_bg'>
                     <div className='banner_text_btn'>
-                        <h1>New Fashion <br />Collection</h1>
+                        <h1>New Fashion Collection</h1>
                         <p>Get exclusive offer with every purchase.</p>
                         <button className='banner_btn'>Shop Now</button>
                     </div>

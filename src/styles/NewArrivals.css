@@ -155,3 +155,72 @@
     text-align: center;
     padding: 0rem 2rem;
 }
+
+/* --------responsive--------- */
+@media (max-width:700px) {
+    .new_arrivals_component {
+        margin-top: 41rem;
+        width: 100vw;
+    }
+
+    .arrivals_heading_line {
+        margin: 0.5rem auto;
+        font-size: 1.1rem;
+    }
+
+    .arrivals_heading_line:before {
+        display: none;
+    }
+
+    .arrivals_heading_line::after {
+        display: none;
+    }
+
+    .new_arrival_heading p {
+        font-size: 0.8rem;
+    }
+    
+    .new_arrivals_containerbox {
+        grid: auto auto / auto auto;
+        padding: 0 0.8rem;
+        margin: 0;
+    }
+    
+    .new_arrival_left {
+        display: none;
+    }
+
+    .new_arrival_right {
+        grid-gap: 0.5rem;
+        padding: 0;
+    }    
+   
+    .new_arrival_right_img {
+        height: 12rem;
+        width: 10rem;
+    }
+    
+    .new_arrival_right_offer {
+        border-radius: 50%;
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+    
+    .new_arrival_right_offer h3 {
+        font-size: 0.5rem;
+        padding: 0rem 0.5rem;
+    }
+
+    .new_arrival_right_itemName {
+        bottom: 1rem;
+    }
+    
+    .new_arrival_right_itemName p {
+        color: #fff;
+        font-weight: 300;
+        font-size: 0.6rem;
+        text-align: center;
+        padding: 0rem 0.5rem;
+    }
+
+}

@@ -54,3 +54,40 @@
     padding-right: 10rem;
     width: 100%;
 }
+
+/* --------responsive--------- */
+@media (max-width:700px) {
+  
+    .JoinNowBanner_bg {
+        display: block;
+        justify-content: center;
+        margin: 0rem;
+        border-radius: 0;
+    }
+    
+    .JoinNowBanner_text_btn {
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+    
+    .JoinNowBanner_text_btn p {
+        font-size: 1rem;
+    }
+    
+    .JoinNowBanner_text_btn h1 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .JoinNowBanner_btn{
+        padding: 0.5rem 1.5rem;
+        font-size: 1.2rem;
+    }
+    
+ 
+    .JoinNowBanner_image img {
+        padding-right: 10rem;
+        width: 100%;
+    }
+    
+}

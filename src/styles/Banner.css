@@ -17,6 +17,7 @@
 
 .banner_text_btn {
     padding: 2rem 5rem;
+    width: 30%;
 }
 
 .banner_text_btn h1 {
@@ -53,4 +54,46 @@
     padding-right: 5rem;
     padding-bottom: 0;
     width: 100%;
+}
+
+
+/* --------responsive--------- */
+@media (max-width:700px){
+    .banner_container {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .banner_bg {
+        padding: 0;
+        display: block;
+        justify-content: center;
+        margin: 0rem;
+        border-radius: 0;
+    }
+
+    .banner_text_btn {
+        padding: 2rem  0!important;
+        text-align: center;
+        margin: 5rem 0 0 0;
+        width: 100%;
+    }
+    
+    .banner_text_btn h1 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    
+    .banner_text_btn p {
+        font-size: 0.8rem;
+    }
+    
+    .banner_btn{
+        margin-top: 2.3rem;
+        padding: 0.5rem 1rem;
+    }
+    
 }

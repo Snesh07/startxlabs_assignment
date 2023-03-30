@@ -10,7 +10,7 @@
 }
 
 
- /* ---------footer left ------------ */
+/* ---------footer left ------------ */
 
 .footer_left {
     text-align: left;
@@ -19,8 +19,9 @@
     margin: 0 1rem;
 }
 
-.footer_shopping_link, .footer_quickLinks_link,
-.footer_onlineShopping_link{
+.footer_shopping_link,
+.footer_quickLinks_link,
+.footer_onlineShopping_link {
     text-decoration: none;
     color: #fff;
     display: block;
@@ -28,13 +29,15 @@
     margin: 1rem 2rem;
 }
 
-.footer_shopping_link:hover{
+.footer_shopping_link:hover {
     color: #dddbdb;
 }
-.footer_quickLinks_link:hover{
+
+.footer_quickLinks_link:hover {
     color: #dddbdb;
 }
-.footer_onlineShopping_link:hover{
+
+.footer_onlineShopping_link:hover {
     color: #dddbdb;
 }
 
@@ -44,7 +47,7 @@
     margin: 2rem;
 }
 
- /* ---------footer contact Us ------------ */
+/* ---------footer contact Us ------------ */
 
 .footer_contactUs {
     text-align: left;
@@ -52,7 +55,7 @@
     align-items: center;
 }
 
-.footer_contactUs h3{
+.footer_contactUs h3 {
     margin: 2rem 0;
 }
 
@@ -66,7 +69,7 @@
     font-weight: 400;
 }
 
-.footer_socialmedia_icons{
+.footer_socialmedia_icons {
     margin: 2rem 0;
 }
 
@@ -77,4 +80,66 @@
     padding: 5px;
     margin: 0.3rem;
     font-size: 1rem;
+}
+
+/* --------responsive--------- */
+@media (max-width:700px) {
+    .footer_container {
+        padding: 1rem;
+        display: block;
+        justify-content: center;
+        margin-top: 75rem;
+    }
+
+    /* ---------footer left ------------ */
+
+    .footer_left {
+        text-align: center;
+        margin: 0 0.2rem;
+        padding: 0;
+    }
+
+    .footer_shopping_link,
+    .footer_quickLinks_link,
+    .footer_onlineShopping_link {
+        margin: 1rem 0rem;
+        font-size: 0.8rem;
+    }
+
+      .footer_container h3 {
+        margin: 2rem  1rem;
+        font-size: 1rem;
+    }
+
+    #footer_quickLinks_responsive {
+        display: none;
+    }
+
+    /* ---------footer contact Us ------------ */
+
+.footer_contactUs {
+    text-align: center;
+    margin: 0 1rem;
+    align-items: center !important;
+}
+
+.footer_contactUs h3 {
+    margin: 3rem 0 1rem 0;
+}
+
+
+.footer_socialmedia_icons {
+    margin: 1rem 0;
+}
+
+.footer_icon_bg {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #017EFF;
+    padding: 5px;
+    margin: 0.3rem;
+    font-size: 0.8rem;
+}
+
+
 }

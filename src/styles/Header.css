@@ -57,3 +57,12 @@
     margin: 3px;
     font-size: 12px;
 }
+
+/* -------responsive------- */
+
+@media (max-width:700px){
+    .header_container{
+        display: none;
+    }
+
+}

@@ -71,7 +71,7 @@ const DealofDay = (props) => {
                         <h4><b>C$242 </b>$̶5̶0̶0̶ (25% OFF)</h4>
                     </div>
 
-                    <div className='dealsOfDay_image_area'>
+                    <div id="slider_img_responsive" className='dealsOfDay_image_area'>
                         <img className='dealsOfDay_image_slider_img' src='./images/Rectangle_1755.png' alt="banner" />
                         <h3>IndiaBoulevard</h3>
                         <p>Dark Brown & gold Designer..</p>

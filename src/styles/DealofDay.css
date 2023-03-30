@@ -112,16 +112,6 @@
     line-height: 1rem;
 }
 
-.rating_reviews{
-    position: absolute;
-    bottom: 12rem;
-    background-color: #017EFF;
-    color: #fff;
-    padding: 0.2rem 0.3rem;
-    font-size: 1rem;
-    align-items: center;
-    left: 3.9rem;
-}
 
 .dealsOfDay_image_area h3{
     padding: 0.5rem;
@@ -140,4 +130,71 @@
     margin: 0;
     padding: 0.5rem 0.5rem;
     font-weight: 300;
+}
+
+/* --------responsive--------- */
+@media (max-width:700px) {
+
+    .dealsOfDay_heading {
+        padding: 0.5rem;
+    }
+    
+    .dealsOfDay_heading_line {
+        font-size: 1.1rem;
+    }
+    
+    .dealsOfDay_heading_line:before {
+        display: none;
+       }
+    
+    .dealsOfDay_heading_line::after {
+        display: none;
+    }
+    .dealsOfDay_heading p {
+        font-size: 0.8rem;
+    }
+
+    /* ------Slider button------- */
+
+.dealsOfDay_btn{
+    display: none;
+  }
+
+  /* ------Slider------- */
+
+.dealsOfDay_image_slider{
+    margin: 0.5rem;
+    display: grid;
+    grid: auto auto / auto auto;
+}
+
+.dealsOfDay_image_area{
+    height: 15rem;
+    width: 9rem;
+    margin: 0 0.2rem;
+}
+
+.dealsOfDay_image_slider_img{
+    height: 10rem;
+    width: 9rem;
+}
+
+
+.dealsOfDay_image_area h3{
+    font-size: 0.9rem;
+    padding: 0.5rem 0.2rem;
+}
+
+.dealsOfDay_image_area p{
+    font-size: 0.8rem;
+    padding: 0 0.2rem;
+}
+
+.dealsOfDay_image_area h4{
+    font-size: 0.7rem;
+    padding: 0.2rem;
+}
+#slider_img_responsive{
+    display: none;
+}
 }

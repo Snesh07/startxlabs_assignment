@@ -3,6 +3,8 @@ import '../styles/Header.css'
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const header = () => {
+
+   
     return (
         <>
             <div className='header_container'>

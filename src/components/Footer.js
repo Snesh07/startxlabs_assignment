@@ -20,7 +20,7 @@ function Footer() {
                         <Link to="/" className="footer_shopping_link">Terms & Conditions</Link>
                     </div>
 
-                    <div className='footer_quickLinks'>
+                    <div  id='footer_quickLinks_responsive' className='footer_quickLinks'>
                         <h3 className='footer_quickLinks_title'>Quick Links</h3>
                         <Link to="/" className="footer_quickLinks_link">About Us</Link>
                         <Link to="/" className="footer_quickLinks_link">Deal of the day</Link>
@@ -44,7 +44,7 @@ function Footer() {
              {/* ---------footer contact Us ------------ */}
 
                 <div className='footer_contactUs'>
-                    <h3 className='footer_contactUs_title'>Contact Us</h3>
+                    <h3 className='footer_contactUs_title'>Contact Us:</h3>
                     <div className="footer_contact_info">
                         <span><FiPhoneCall className='footer_icon_bg' /></span>
                         <a href="tel:202-555-0819"> 202-555-0819 </a>
@@ -53,7 +53,7 @@ function Footer() {
                         <span><FiMail className='footer_icon_bg' /></span>
                         <a href="mailto:noahjones23@gmail.com">noahjones23@gmail.com</a>
                     </div>
-                    
+
                     <div className="footer_socialmedia_icons">
                         <a href="/"><FaFacebookF className='footer_icon_bg' /></a>
                         <a href="/"><FaInstagram className='footer_icon_bg' /></a>
