@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/DealofDay.css';
-import { BsChevronLeft, BsChevronRight } from "react-icons/bs"
+import { BsChevronLeft, BsChevronRight, } from "react-icons/bs"
 
 
 // function truncate(string, n) {
@@ -35,7 +35,7 @@ function DealofDay() {
                     </div>
 
                     <div className='dealsOfDay_image_area'>
-                        <img className='dealsOfDay_image_slider_img' src='./images/Rectangle_1752.png' alt="banner" />
+                        <img className='dealsOfDay_image_slider_img' src='./images/Rectangle_1752.png' alt="banner" />                        
                         <h3>Levis</h3>
                         <p>Men Black Solid Hooded..</p>
                         <h4><b>C$542 </b> $̶8̶4̶9̶ (35% OFF)</h4>

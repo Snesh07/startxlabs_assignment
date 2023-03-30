@@ -95,10 +95,22 @@
 }
 
 .dealsOfDay_image_slider_img{
+    position: relative;
     height: 20rem;
     width: 15rem;
     border-radius: 5px;
     line-height: 1rem;
+}
+
+.rating_reviews{
+    position: absolute;
+    bottom: 12rem;
+    background-color: #017EFF;
+    color: #fff;
+    padding: 0.2rem 0.3rem;
+    font-size: 1rem;
+    align-items: center;
+    left: 3.9rem;
 }
 
 .dealsOfDay_image_area h3{

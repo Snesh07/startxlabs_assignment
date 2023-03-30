@@ -1,0 +1,74 @@
+.footer_container {
+    position: relative;
+    bottom: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80rem;
+    background: #017EFF;
+    color: #fff;
+}
+
+
+ /* ---------footer left ------------ */
+
+.footer_left {
+    text-align: left;
+    display: flex;
+    left: 0;
+    margin: 0 1rem;
+}
+
+.footer_shopping_link, .footer_quickLinks_link,
+.footer_onlineShopping_link{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    margin: 1rem 2rem;
+}
+
+.footer_shopping_link:hover{
+    color: #dddbdb;
+}
+.footer_quickLinks_link:hover{
+    color: #dddbdb;
+}
+.footer_onlineShopping_link:hover{
+    color: #dddbdb;
+}
+
+
+.footer_container h3 {
+    font-weight: 600;
+    margin: 2rem;
+}
+
+ /* ---------footer contact Us ------------ */
+
+.footer_contactUs {
+    text-align: left;
+}
+
+.footer_contactUs h3{
+    margin: 2rem 0;
+}
+
+.footer_contact_info {
+    align-items: center !important;
+}
+
+.footer_contact_info a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer_icon_bg {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #017EFF;
+    padding: 5px;
+    margin: 0.3rem;
+    font-size: 1rem;
+}
